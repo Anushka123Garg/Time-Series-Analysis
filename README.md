@@ -2,11 +2,11 @@
 
 # Importing Dependencies
 
-# Data Description
-1. ManuaLoaDailyTemps
-2. JaipurFinalCleanDataset
-3. DailyDelhiClimate
-4. WeatherData
+# Data Description [Target_Variables]
+1. ManuaLoaDailyTemps  [AvgTemp]
+2. JaipurFinalCleanDataset  [meantempm]
+3. DailyDelhiClimate   [meantemp]
+4. WeatherData   [Temp_C]
 
 # Model Selection
 1. ARIMA (AutoRegressive Integrated Moving Average)
@@ -25,7 +25,7 @@
 ![bar_graph](https://github.com/Anushka123Garg/Time-Series-Analysis/assets/98416741/7513659b-0d17-4f47-b67d-e1492605ebcd)
 Bar Graph showing RMSE on the y-axis and datasets with different models on the X-axis.
 
-![bargraph](https://github.com/Anushka123Garg/Time-Series-Analysis/assets/98416741/ca4186a4-e425-4d74-84a0-e14da9ba4d4c)
+![AvgTemp](https://github.com/Anushka123Garg/Time-Series-Analysis/assets/98416741/14c44795-0513-4c85-b131-47e8fe29e488)
 Bar Graph showing RMSE on the y-axis and datasets with multivariate RNN & LSTM on the
 X-axis where RNN1 is for target variable1 and RNN2 for target variable2 and same for LSTM1
 and LSTM2.
